@@ -12,6 +12,21 @@ public class Hossz {
 
 	double h;
 	HashMap<ME, Double> valtoertek;
+
+	public Hossz(double val, String me) throws WrongMeException {
+		initValtoertekek();
+		switch(me){
+			case "cm": h = val*valtoertek.get(ME.cm); break;
+			case "m": h = val*valtoertek.get(ME.m); break;
+			case "km": h = val*valtoertek.get(ME.km); break;
+			case "in": h = val*valtoertek.get(ME.in); break;
+			case "ft": h = val*valtoertek.get(ME.ft); break;
+			case "yd": h = val*valtoertek.get(ME.yd); break;
+			case "mile": h = val*valtoertek.get(ME.mile); break;
+			case "nm": h = val*valtoertek.get(ME.nm); break;
+			default: throw new WrongMeException();
+		}
+	}
 	
 	public Hossz(double val, ME me){
 		initValtoertekek();
@@ -24,7 +39,7 @@ public class Hossz {
 		case yd: h = val*valtoertek.get(ME.yd); break;
 		case mile: h = val*valtoertek.get(ME.mile); break;
 		case nm: h = val*valtoertek.get(ME.nm); break;
-		}System.out.println(h);
+		}
 	}
 
 	private void initValtoertekek() {
