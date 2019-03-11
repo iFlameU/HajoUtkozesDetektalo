@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f270105-58e4-4a74-a2b9-ff3fdfed651e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdflkjdsf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teszt/sdflkjdsf/hossz/HosszLetrehozasTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teszt/sdflkjdsf/hossz/HosszOsszehasonlitasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sdflkjdsf/Hossz.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sdflkjdsf/Hossz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sdflkjdsf/HosszTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sdflkjdsf/KalkulatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sdflkjdsf/KalkulatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdflkjdsf/Hossz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdflkjdsf/Hossz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teszt/sdflkjdsf/HosszTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/teszt/sdflkjdsf/KalkulatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/teszt/sdflkjdsf/KalkulatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teszt/sdflkjdsf/TomegTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/teszt/sdflkjdsf/TomegTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sdflkjdsf/Hossz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <folding>
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+                <element signature="method#sebessegelOssztas#0;class#Hossz#0" />
+                <element signature="e#1465#1466#0" expanded="true" />
+                <element signature="e#1480#1481#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teszt/sdflkjdsf/hossz/HosszOsszehasonlitasTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1241">
+              <caret line="73" column="19" lean-forward="true" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/teszt/sdflkjdsf/hossz/HosszLétrehozásTest.java" />
+        <option value="$PROJECT_DIR$/teszt/sdflkjdsf/hossz/HosszSkalarralSzorzasTest.java" />
+        <option value="$PROJECT_DIR$/teszt/sdflkjdsf/hossz/HosszLetrehozasTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/teszt/sdflkjdsf/TomegTest.java" />
+        <option value="$PROJECT_DIR$/src/sdflkjdsf/SebessegInterface.java" />
+        <option value="$PROJECT_DIR$/teszt/sdflkjdsf/hossz/HosszSebesseggelOsztasTest.java" />
+        <option value="$PROJECT_DIR$/teszt/sdflkjdsf/hossz/HosszOsszehasonlitasTest.java" />
+        <option value="$PROJECT_DIR$/src/sdflkjdsf/Hossz.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sdflkjdsf" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sdflkjdsf" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sdflkjdsf" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sdflkjdsf" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1890" />
+    <option name="height" value="1020" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sdflkjdsf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HajoUtkozesDetektalo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sdflkjdsf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HajoUtkozesDetektalo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sdflkjdsf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HajoUtkozesDetektalo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sdflkjdsf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sdflkjdsf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HajoUtkozesDetektalo" type="462c0819:PsiDirectoryNode" />
+              <item name="teszt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sdflkjdsf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HajoUtkozesDetektalo" type="462c0819:PsiDirectoryNode" />
+              <item name="teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="sdflkjdsf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sdflkjdsf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HajoUtkozesDetektalo" type="462c0819:PsiDirectoryNode" />
+              <item name="teszt" type="462c0819:PsiDirectoryNode" />
+              <item name="sdflkjdsf" type="462c0819:PsiDirectoryNode" />
+              <item name="hossz" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552277972054" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.All in sdflkjdsf">
+    <configuration name="All in sdflkjdsf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sdflkjdsf" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HosszOsszehasonlitasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sdflkjdsf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sdflkjdsf.hossz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sdflkjdsf.hossz" />
+      <option name="MAIN_CLASS_NAME" value="sdflkjdsf.hossz.HosszOsszehasonlitasTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HosszOsszehasonlitasTest.hosszOsszehasonlitasNmMEgyenlo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sdflkjdsf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sdflkjdsf.hossz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sdflkjdsf.hossz" />
+      <option name="MAIN_CLASS_NAME" value="sdflkjdsf.hossz.HosszOsszehasonlitasTest" />
+      <option name="METHOD_NAME" value="hosszOsszehasonlitasNmMEgyenlo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HosszOsszehasonlitasTest.hosszOsszehasonlitasYdMileEgyenlo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sdflkjdsf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sdflkjdsf.hossz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sdflkjdsf.hossz" />
+      <option name="MAIN_CLASS_NAME" value="sdflkjdsf.hossz.HosszOsszehasonlitasTest" />
+      <option name="METHOD_NAME" value="hosszOsszehasonlitasYdMileEgyenlo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sdflkjdsf.hossz in sdflkjdsf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sdflkjdsf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sdflkjdsf.hossz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sdflkjdsf.hossz" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in sdflkjdsf" />
+        <item itemvalue="JUnit.HosszOsszehasonlitasTest.hosszOsszehasonlitasNmMEgyenlo" />
+        <item itemvalue="JUnit.sdflkjdsf.hossz in sdflkjdsf" />
+        <item itemvalue="JUnit.HosszOsszehasonlitasTest.hosszOsszehasonlitasYdMileEgyenlo" />
+        <item itemvalue="JUnit.HosszOsszehasonlitasTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f270105-58e4-4a74-a2b9-ff3fdfed651e" name="Default Changelist" comment="" />
+      <created>1552198014703</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552198014703</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="HosszOsszehasonlitasTest_hosszOsszehasonlitasYdMileEgyenlo - 2019.03.11 at 04h 59m 28s.xml">
+      <configuration name="HosszOsszehasonlitasTest.hosszOsszehasonlitasYdMileEgyenlo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HosszOsszehasonlitasTest_hosszOsszehasonlitasYdMileEgyenlo - 2019.03.11 at 05h 04m 47s.xml">
+      <configuration name="HosszOsszehasonlitasTest.hosszOsszehasonlitasYdMileEgyenlo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_sdflkjdsf - 2019.03.11 at 05h 05m 55s.xml">
+      <configuration name="All in sdflkjdsf" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HosszOsszehasonlitasTest_hosszOsszehasonlitasYdMileEgyenlo - 2019.03.11 at 05h 09m 54s.xml">
+      <configuration name="HosszOsszehasonlitasTest.hosszOsszehasonlitasYdMileEgyenlo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HosszOsszehasonlitasTest - 2019.03.11 at 05h 12m 23s.xml">
+      <configuration name="HosszOsszehasonlitasTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HosszOsszehasonlitasTest_hosszOsszehasonlitasYdMileEgyenlo - 2019.03.11 at 05h 14m 54s.xml">
+      <configuration name="HosszOsszehasonlitasTest.hosszOsszehasonlitasYdMileEgyenlo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="sdflkjdsf_hossz_in_sdflkjdsf - 2019.03.11 at 05h 15m 47s.xml">
+      <configuration name="sdflkjdsf.hossz in sdflkjdsf" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HosszOsszehasonlitasTest_hosszOsszehasonlitasNmMEgyenlo - 2019.03.11 at 05h 17m 29s.xml">
+      <configuration name="HosszOsszehasonlitasTest.hosszOsszehasonlitasNmMEgyenlo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HosszOsszehasonlitasTest_hosszOsszehasonlitasNmMEgyenlo - 2019.03.11 at 05h 17m 56s.xml">
+      <configuration name="HosszOsszehasonlitasTest.hosszOsszehasonlitasNmMEgyenlo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_sdflkjdsf - 2019.03.11 at 05h 18m 07s.xml">
+      <configuration name="All in sdflkjdsf" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="20" width="1260" height="680" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25833333" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32846716" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32846716" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdflkjdsf/SebessegInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teszt/sdflkjdsf/hossz/HosszLetrehozasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teszt/sdflkjdsf/hossz/HosszSkalarralSzorzasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teszt/sdflkjdsf/TomegTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teszt/sdflkjdsf/hossz/HosszSebesseggelOsztasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teszt/sdflkjdsf/hossz/HosszOsszeadasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teszt/sdflkjdsf/hossz/HosszOsszehasonlitasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="19" lean-forward="true" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdflkjdsf/Hossz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="method#sebessegelOssztas#0;class#Hossz#0" />
+            <element signature="e#1465#1466#0" expanded="true" />
+            <element signature="e#1480#1481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sdflkjdsf</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

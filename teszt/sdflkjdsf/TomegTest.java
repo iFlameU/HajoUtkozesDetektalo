@@ -4,6 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import sdflkjdsf.Tomeg;
+
 
 public class TomegTest {
 
@@ -14,7 +16,7 @@ public class TomegTest {
 	
 	@Test(expected = WrongMeException.class)
 	public void testLetrehozasRosszME() throws WrongMeException {
-		new Tomeg(1.0, "marék");
+		new Tomeg(1.0, "marek");
 	}
 
 	@Test
