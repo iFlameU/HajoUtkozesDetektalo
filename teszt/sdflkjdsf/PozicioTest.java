@@ -36,7 +36,7 @@ public class PozicioTest {
 
     @Test
     public void testJotKapokVissza2() throws WrongMeException {
-        assertEquals(3, (int) new Pozicio(new Hossz(2, Hossz.ME.nm), new Hossz(3, Hossz.ME.nm)).getX().get(Hossz.ME.nm));
+        assertEquals(2, (int) new Pozicio(new Hossz(2, Hossz.ME.nm), new Hossz(3, Hossz.ME.nm)).getX().get(Hossz.ME.nm));
     }
 
     @Test

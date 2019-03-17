@@ -14,7 +14,7 @@ public void testLetrehozasSebesseg() throws WrongMeException {
     }
     @Test
 public void KilometerPerHourToMeterPerSecond() throws WrongMeException{
-            assertEquals(new Sebesseg(1.0, "m/s"), new Sebesseg(0.277778, "k/h"));
+            assertEquals(new Sebesseg(1.0, "m/s"), new Sebesseg(0.277778, "km/h"));
         }
         @Test
 public void MilePerHourToMeterPerSecond() throws WrongMeException{
