@@ -8,7 +8,7 @@ public class Kalkulator {
         this.sajat = sajat;
     }
 
-    public String utkozik_e(HajoInterface ellenseg, int irany, Pozicio pozicio) {
+    public String utkozik_e(Hajo ellenseg, int irany, Pozicio pozicio) {
         return null;
     }
 }
