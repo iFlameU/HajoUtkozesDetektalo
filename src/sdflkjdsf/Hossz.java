@@ -56,14 +56,14 @@ public class Hossz {
 
 	public double as(String me){
 		switch (me){
-			case "cm" return get(ME.cm);
-			case "m" return get(ME.m);
-			case "km" return get(ME.km);
-			case "in" return get(ME.in);
-			case "ft" return get(ME.ft);
-			case "yd" return get(ME.yd);
-			case "mile" return get(ME.mile);
-			case "nm" return get(ME.nm);
+			case "cm":return get(ME.cm);
+			case "m":return get(ME.m);
+			case "km":return get(ME.km);
+			case "in":return get(ME.in);
+			case "ft":return get(ME.ft);
+			case "yd":return get(ME.yd);
+			case "mile":return get(ME.mile);
+			case "nm":return get(ME.nm);
 		}
 	}
 
