@@ -12,14 +12,7 @@ public class Sebesseg {
             case "knot": s = val*0.51444444444;break;
             default: throw new WrongMeException();
         }
-        
-        public int compareTo(Sebesseg sebesseg) throws ComparingWithNullException {
-		if(sebesseg == null) throw new ComparingWithNullException();
-		 if(s == sebesseg.getG()) return 0;
-		 if(s > sebesseg.getG()) return 1;
-		 return -1;
-		 
-	}
+
 
         public SebessegSkalar(double skalar){
             return new Sebesseg(this.s*skalar, "m/s");
