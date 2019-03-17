@@ -12,8 +12,9 @@ public class Kalkulator {
         try {
             if((pozicio.getX().get(Hossz.ME.cm) < 0 && irany >= 180 && irany <= 360) ||
                     (pozicio.getX().get(Hossz.ME.cm) > 0 && irany >= 0 && irany <= 180)) return "Nem ütközik!";
-            double vx = ellenseg.getSebesseg().SebessegSkalar(Math.cos(90 - irany)).as("m/s");
-            Double vy = ellenseg.getSebesseg().SebessegSkalar(Math.sin(90 - irany)).as("m/s");
+            double vx = ellenseg.getSebesseg().as("m/s");
+            double vy = ellenseg.getSebesseg().as("m/s");
+
             Ido t = new Ido(-(pozicio.getX().as("m")/vx), "s");
 
             double Y = pozicio.getY().as("m") + (vy * t.as("s"));
@@ -24,7 +25,7 @@ public class Kalkulator {
             double DT = 3.5 * sajat.getHossz().as("m")/sajat.getSebesseg().as("m/s");
             if(t.as("s") + dt < T - DT || t.as("s") - dt > T + DT) return "Nem ütközik!";
             else{
-                if(irany > 270 && irany < 360 || irany > 0 && irany < 90){ // itt van, tudom de azt ő
+                if(irany > 270 && irany < 360 || irany > 0 && irany < 90){
                     if(pozicio.getX().as("cm")< 0){
                         return "Figyelj!";
                     }else if(pozicio.getX().as("cm") > 0){
