@@ -15,7 +15,7 @@ public class KalkulatorTest {
 		Tomeg t = new Tomeg(10000.0, "t");
 		Hossz h = new Hossz(120, "m");
 		Sebesseg s = new Sebesseg(5, "m/s");
-		HajoInterface sajat = new Hajo(t, h, s);
+		Hajo sajat = new Hajo(t, s, h);
 		k = new Kalkulator(sajat);
 	}
 
@@ -36,7 +36,7 @@ public class KalkulatorTest {
 		Tomeg t = new Tomeg(8000.0, "t");
 		Hossz h = new Hossz(100, "m");
 		Sebesseg s = new Sebesseg(5, "m/s");
-		HajoInterface ellenseg = new Hajo(t, h, s);
+		Hajo ellenseg = new Hajo(t, s, h);
 		Pozicio pozicio = new Pozicio(new Hossz(2, "nm"), new Hossz(2, "nm"));
 		int irany = 270;
 		assertEquals("Lassits!", k.utkozik_e(ellenseg, irany, pozicio));
@@ -47,7 +47,7 @@ public class KalkulatorTest {
         Tomeg t = new Tomeg(10000.0, "t");
         Hossz h = new Hossz(120, "m");
         Sebesseg s = new Sebesseg(5, "m/s");
-        HajoInterface ellenseg = new Hajo(t, h, s);
+        Hajo ellenseg = new Hajo(t, s, h);
         Pozicio pozicio = new Pozicio(new Hossz(2, "nm"), new Hossz(2, "nm"));
         int irany = 270;
         assertEquals("Elkerul!", k.utkozik_e(ellenseg, irany, pozicio));
