@@ -41,10 +41,5 @@ public class Hajo {
         this.hossz = hossz;
     }
 
-    public String utkozik_e(Hajo ellenseg, int irany, Pozicio pozicio) {
-        if((pozicio.getX().get(Hossz.ME.cm) < 0 && irany >= 180 && irany <= 360) ||
-                (pozicio.getX().get(Hossz.ME.cm) > 0 && irany >= 0 && irany <= 180)) return "Nem ütközik!";
-
-        return null;
-    }
+   
 }
