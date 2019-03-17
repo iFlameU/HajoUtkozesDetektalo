@@ -13,6 +13,9 @@ public class Sebesseg {
             default: throw new WrongMeException();
         }
 
+        public as(String mertekegyseg){
+            return new Sebesseg(this.s, "m/s");
+        }
 
         public SebessegSkalar(double skalar){
             return new Sebesseg(this.s*skalar, "m/s");
