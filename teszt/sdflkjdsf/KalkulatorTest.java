@@ -2,6 +2,10 @@ package sdflkjdsf;
 
 import org.junit.*;
 
+import java.lang.annotation.Documented;
+
+import static org.junit.Assert.assertEquals;
+
 public class KalkulatorTest {
 
 	private static Kalkulator k;
@@ -48,5 +52,35 @@ public class KalkulatorTest {
         int irany = 270;
         assertEquals("Elkerul!", k.utkozik_e(ellenseg, irany, pozicio));
     }
+
+	/**
+	 * @author David Polynar
+	 * @throws WrongMeException
+	 */
+    @Test
+	public void testNemUtkozikJobbOJobra() throws WrongMeException {
+		Tomeg tomeg = new Tomeg(10, "t");
+		Hossz hossz = new Hossz(1000, "m");
+		Sebesseg sebesseg = new Sebesseg(5, "km/h");
+		Hajo ellenseg = new Hajo(tomeg, sebesseg, hossz);
+		Pozicio pozicio = new Pozicio(10, 0);
+		int irany = 90;
+		assertEquals("Nem ütközik!", k.utkozik_e(ellenseg, irany, pozicio));
+	}
+
+	/**
+	 * @author David Polynar
+	 * @throws WrongMeException
+	 */
+	@Test
+	public void testNemUtkozikBalOBalra() throws WrongMeException {
+		Tomeg tomeg = new Tomeg(10, "t");
+		Hossz hossz = new Hossz(1000, "m");
+		Sebesseg sebesseg = new Sebesseg(5, "km/h");
+		Hajo ellenseg = new Hajo(tomeg, sebesseg, hossz);
+		Pozicio pozicio = new Pozicio(-10, 0);
+		int irany = 200;
+		assertEquals("Nem ütközik!", k.utkozik_e(ellenseg, irany, pozicio));
+	}
 
 }
