@@ -7,7 +7,7 @@ public class Sebesseg {
     public Sebesseg(double val, String me) throws WrongMeException { //átváltás m/s
         switch(me){
             case "m/s": s = val;break;
-            case "k/h": s = val* 0.277778;break;
+            case "km/h": s = val* 0.277778;break;
             case "mi/h": s = val*0.44704;break;
             case "knot": s = val*0.51444444444;break;
             default: throw new WrongMeException();
