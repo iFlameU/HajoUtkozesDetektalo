@@ -26,16 +26,16 @@ public void KnotToMeterPerSecond() throws WrongMeException{
         }
         @Test
 public void SkalarTest() throws WrongMeException{
-            Sebesseg sebesseg = new Sebesseg(100);
-            assertEquals(new SebessegSkalar(5), 500);
+            Sebesseg sebesseg = new Sebesseg(100, "m/s");
+            assertEquals(sebesseg.SebessegSkalar(5), 500);
         }
         @Test
-public void NegacioTest() throws WrongException{
-            asseretEquals(new SebessegNegacio(100), -100);
+public void NegacioTest() throws WrongMeException{
+            assertEquals(new Sebesseg(100, "m/s").SebessegNegacio(), -100);
         }
         @Test
         public void IdoSzorzasTest() throws WrongMeException{
-            Sebesseg sebesseg = new Sebesseg(100);
-            assertEquals(new Sebesseg(20), 2000);
+            Sebesseg sebesseg = new Sebesseg(100, "m/s");
+            assertEquals(sebesseg.IdovelSzorzas(20), 2000);
         }
 }

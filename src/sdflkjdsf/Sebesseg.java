@@ -29,15 +29,15 @@ public class Sebesseg {
             }
         }
 
-        public double SebessegSkalar(double skalar) throws WrongMeException  {
+        public Sebesseg SebessegSkalar(double skalar) throws WrongMeException  {
             return new Sebesseg(this.s*skalar, "m/s");
         }
 
-        public double SebessegNegacio() throws WrongMeException  {
+        public Sebesseg SebessegNegacio() throws WrongMeException  {
             return new Sebesseg(this.s*-1, "m/s");
         }
 
-        public double IdovelSzorzas(double ido) throws WrongMeException  {
+        public Sebesseg IdovelSzorzas(double ido) throws WrongMeException  {
             return new Sebesseg(this.s*ido, "m/s");
         }
     }

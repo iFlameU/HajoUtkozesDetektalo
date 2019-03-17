@@ -12,8 +12,8 @@ public class Kalkulator {
         try {
             if((pozicio.getX().get(Hossz.ME.cm) < 0 && irany >= 180 && irany <= 360) ||
                     (pozicio.getX().get(Hossz.ME.cm) > 0 && irany >= 0 && irany <= 180)) return "Nem ütközik!";
-            double vx = ellenseg.getSebesseg().SebessegSkalar(Math.cos(90 - irany));
-            Double vy = ellenseg.getSebesseg().SebessegSkalar(Math.sin(90 - irany));
+            double vx = ellenseg.getSebesseg().SebessegSkalar(Math.cos(90 - irany)).as("m/s");
+            Double vy = ellenseg.getSebesseg().SebessegSkalar(Math.sin(90 - irany)).as("m/s");
             Ido t = new Ido(-(pozicio.getX().as("m")/vx), "s");
 
             double Y = pozicio.getY().as("m") + (vy * t.as("s"));
@@ -33,7 +33,7 @@ public class Kalkulator {
                 }else if(irany >90 && irany < 270){
                     if(sajat.getTomeg().getG() < ellenseg.getTomeg().getG()){
                         return "Figyelj!";
-                    }else if(sajat.getTomeg().getG() < ellenseg.getTomeg().getG()){
+                    }else if(sajat.getTomeg().getG() > ellenseg.getTomeg().getG()){
                         return "Lassits!";
                     }
                 }
