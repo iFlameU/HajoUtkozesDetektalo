@@ -14,15 +14,15 @@ public class Sebesseg {
         }
 
         public SebessegSkalar(double skalar){
-            return new Sebesseg(this.s*skalar);
+            return new Sebesseg(this.s*skalar, "m/s");
         }
 
         public SebessegNegacio(){
-            return new Sebesseg(this.s*-1);
+            return new Sebesseg(this.s*-1, "m/s");
         }
 
         }
         public IdovelSzorzas(double ido){
-            return new Sebesseg(this.s*ido);
+            return new Sebesseg(this.s*ido, "m/s");
         }
     }
