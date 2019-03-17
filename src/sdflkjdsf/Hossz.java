@@ -54,6 +54,19 @@ public class Hossz {
 		valtoertek.put(ME.nm, 185200.0);
 	}
 
+	public double as(String me){
+		switch (me){
+			case "cm" return get(ME.cm);
+			case "m" return get(ME.m);
+			case "km" return get(ME.km);
+			case "in" return get(ME.in);
+			case "ft" return get(ME.ft);
+			case "yd" return get(ME.yd);
+			case "mile" return get(ME.mile);
+			case "nm" return get(ME.nm);
+		}
+	}
+
 	public double get(ME me) {
 		return h/valtoertek.get(me);
 	}
