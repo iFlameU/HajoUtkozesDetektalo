@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import sdflkjdsf.Tomeg;
 
-public SebessegTeszt {
+public class SebessegTeszt {
 
 @Test
 public void testLetrehozasSebesseg() throws WrongMeException {
