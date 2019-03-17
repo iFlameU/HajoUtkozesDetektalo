@@ -20,32 +20,32 @@ public class PozicioTest {
     }
 
     @Test
-    public void testUgyanArraAzInputraUgyanAztKapomX(){
-        assertEquals(new Pozicio(10,10).getX(), new Pozicio(10,10).getX());
+    public void testUgyanArraAzInputraUgyanAztKapomX() throws WrongMeException {
+        assertEquals(new Pozicio(new Hossz(2, Hossz.ME.nm), new Hossz(2, Hossz.ME.nm)).getX(), new Pozicio(new Hossz(2, Hossz.ME.nm), new Hossz(2, Hossz.ME.nm)).getX());
     }
 
     @Test
-    public void testUgyanArraAzInputraUgyanAztKapomY(){
-        assertEquals(new Pozicio(10,10).getY(), new Pozicio(10,10).getY());
+    public void testUgyanArraAzInputraUgyanAztKapomY() throws WrongMeException {
+        assertEquals(new Pozicio(new Hossz(2, Hossz.ME.nm), new Hossz(2, Hossz.ME.nm)).getY(), new Pozicio(new Hossz(2, Hossz.ME.nm), new Hossz(2, Hossz.ME.nm)).getY());
     }
 
     @Test
-    public void testJotKapokVissza(){
-        assertEquals(10, new Pozicio(11,10).getY());
+    public void testJotKapokVissza() throws WrongMeException {
+        assertEquals(2,(int) new Pozicio(new Hossz(3, Hossz.ME.nm), new Hossz(2, Hossz.ME.nm)).getY().get(Hossz.ME.nm));
     }
 
     @Test
-    public void testJotKapokVissza2(){
-        assertEquals(10, new Pozicio(10,11).getX());
+    public void testJotKapokVissza2() throws WrongMeException {
+        assertEquals(3, (int) new Pozicio(new Hossz(2, Hossz.ME.nm), new Hossz(3, Hossz.ME.nm)).getX().get(Hossz.ME.nm));
     }
 
     @Test
-    public void testJotKapokVissza3(){
-        assertEquals(-10, new Pozicio(-10,11).getX());
+    public void testJotKapokVissza3() throws WrongMeException {
+        assertEquals(-10, (int) new Pozicio(new Hossz(2, Hossz.ME.nm), new Hossz(-10, Hossz.ME.nm)).getY().get(Hossz.ME.nm));
     }
 
     @Test
-    public void testLetezikHajo(){
-        assertNotNull(new Pozicio(10, 10));
+    public void testLetezikHajo() throws WrongMeException {
+        assertNotNull(new Pozicio(new Hossz(2, Hossz.ME.nm), new Hossz(2, Hossz.ME.nm)));
     }
 }

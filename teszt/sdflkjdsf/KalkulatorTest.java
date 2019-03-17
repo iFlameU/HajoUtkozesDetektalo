@@ -63,7 +63,7 @@ public class KalkulatorTest {
 		Hossz hossz = new Hossz(1000, "m");
 		Sebesseg sebesseg = new Sebesseg(5, "km/h");
 		Hajo ellenseg = new Hajo(tomeg, sebesseg, hossz);
-		Pozicio pozicio = new Pozicio(10, 0);
+		Pozicio pozicio = new Pozicio(new Hossz(2, "nm"), new Hossz(2, "nm"));
 		int irany = 90;
 		assertEquals("Nem ütközik!", k.utkozik_e(ellenseg, irany, pozicio));
 	}
@@ -78,7 +78,7 @@ public class KalkulatorTest {
 		Hossz hossz = new Hossz(1000, "m");
 		Sebesseg sebesseg = new Sebesseg(5, "km/h");
 		Hajo ellenseg = new Hajo(tomeg, sebesseg, hossz);
-		Pozicio pozicio = new Pozicio(-10, 0);
+		Pozicio pozicio = new Pozicio(new Hossz(2, "nm"), new Hossz(2, "nm"));
 		int irany = 200;
 		assertEquals("Nem ütközik!", k.utkozik_e(ellenseg, irany, pozicio));
 	}

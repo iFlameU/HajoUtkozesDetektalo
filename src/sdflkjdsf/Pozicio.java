@@ -7,26 +7,26 @@ package sdflkjdsf;
 
 public class Pozicio{
 
-    private int x, y;
+    private Hossz x, y;
 
-    public Pozicio(int x, int y) {
+    public Pozicio(Hossz x, Hossz y) {
         this.x = x;
         this.y = y;
     }
 
-    public int getX() {
+    public Hossz getX() {
         return x;
     }
 
-    public void setX(int x) {
+    public void setX(Hossz x) {
         this.x = x;
     }
 
-    public int getY() {
+    public Hossz getY() {
         return y;
     }
 
-    public void setY(int y) {
+    public void setY(Hossz y) {
         this.y = y;
     }
 }
