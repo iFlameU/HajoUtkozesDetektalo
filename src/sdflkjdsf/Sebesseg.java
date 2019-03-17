@@ -12,21 +12,32 @@ public class Sebesseg {
             case "knot": s = val*0.51444444444;break;
             default: throw new WrongMeException();
         }
+    }
 
-        public  as(String mertekegyseg){
-            return new Sebesseg(this.s, "m/s");
+     public double as(String mertekegyseg) throws WrongMeException {
+            switch(mertekegyseg) {
+                case "m/s":
+                    return this.s;
+                case "k/h":
+                    return this.s / 3.6;
+                case "mi/h":
+                    return this.s / 0.44704;
+                case "knot":
+                    return this.s / 1.9438444924574;
+                default:
+                    throw new WrongMeException();
+            }
         }
 
-        public SebessegSkalar(double skalar){
+        public double SebessegSkalar(double skalar){
             return new Sebesseg(this.s*skalar, "m/s");
         }
 
-        public SebessegNegacio(){
+        public double SebessegNegacio(){
             return new Sebesseg(this.s*-1, "m/s");
         }
 
-        }
-        public IdovelSzorzas(double ido){
+        public double IdovelSzorzas(double ido){
             return new Sebesseg(this.s*ido, "m/s");
         }
     }
