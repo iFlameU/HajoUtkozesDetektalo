@@ -2,13 +2,13 @@ package sdflkjdsf;
 
 public class Kalkulator {
 
-    private HajoInterface sajat;
+    private Hajo sajat;
 
-    public Kalkulator(HajoInterface sajat) {
+    public Kalkulator(Hajo sajat) {
         this.sajat = sajat;
     }
 
     public String utkozik_e(Hajo ellenseg, int irany, Pozicio pozicio) {
-        return null;
+        return sajat.utkozik_e(ellenseg, irany, pozicio);
     }
 }
