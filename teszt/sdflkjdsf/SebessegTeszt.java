@@ -14,28 +14,28 @@ public void testLetrehozasSebesseg() throws WrongMeException {
     }
     @Test
 public void KilometerPerHourToMeterPerSecond() throws WrongMeException{
-            assertEquals(0,(new Sebesseg(1.0, "m/s").compareTo(new Sebesseg(0.277778, "k/h"))));
+            assertEquals(new Sebesseg(1.0, "m/s"), new Sebesseg(0.277778, "k/h"));
         }
         @Test
 public void MilePerHourToMeterPerSecond() throws WrongMeException{
-            assertEquals(0, (new Sebesseg(1.0, "m/s").compareTo(new Sebesseg(0.44704, "mi/h"))));
+            assertEquals(new Sebesseg(1.0, "m/s"), new Sebesseg(0.44704, "mi/h"));
         }
         @Test
 public void KnotToMeterPerSecond() throws WrongMeException{
-            assertEquals(0, (new Sebesseg(1.0, "m/s").compareTo(new Sebesseg(0.51444444444, "knot"))));
+            assertEquals(new Sebesseg(1.0, "m/s"), new Sebesseg(0.51444444444, "knot"));
         }
         @Test
 public void SkalarTest() throws WrongMeException{
             Sebesseg sebesseg = new Sebesseg(100);
-            assertEquals(0, (new SebessegSkalar(5).compareTo(500)));
+            assertEquals(new SebessegSkalar(5), 500);
         }
         @Test
 public void NegacioTest() throws WrongException{
-            asseretEquals(0, (new SebessegNegacio(100).compareTo(-100)));
+            asseretEquals(new SebessegNegacio(100), -100);
         }
         @Test
         public void IdoSzorzasTest() throws WrongMeException{
             Sebesseg sebesseg = new Sebesseg(100);
-            assertEquals(0, (new Sebesseg(20).compareTo(2000)));
+            assertEquals(new Sebesseg(20), 2000);
         }
 }
