@@ -41,5 +41,5 @@ public class Hajo {
         this.hossz = hossz;
     }
 
-   
+
 }

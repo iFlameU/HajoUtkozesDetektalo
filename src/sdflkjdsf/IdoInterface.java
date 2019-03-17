@@ -5,6 +5,6 @@ public interface IdoInterface {
 	public IdoInterface negacio();
 	public IdoInterface osszeadas(IdoInterface ido);
 	public IdoInterface kivonas(IdoInterface ido);
-	public IdoInterface osszHasonlitas(IdoInterface ido);
-	
+	public int osszHasonlitas(IdoInterface ido);
+	public double as(String me);
 }
