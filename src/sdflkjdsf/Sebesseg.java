@@ -13,7 +13,7 @@ public class Sebesseg {
             default: throw new WrongMeException();
         }
 
-        public as(String mertekegyseg){
+        public  as(String mertekegyseg){
             return new Sebesseg(this.s, "m/s");
         }
 

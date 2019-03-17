@@ -65,6 +65,7 @@ public class Hossz {
 			case "mile":return get(ME.mile);
 			case "nm":return get(ME.nm);
 		}
+		return Double.parseDouble(null);
 	}
 
 	public double get(ME me) {

@@ -46,5 +46,6 @@ public class Ido implements IdoInterface {
             case "m": return ido/60;
             case "h": return ido/3600;
         }
+        return Double.parseDouble(null);
     }
 }
